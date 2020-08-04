@@ -21,7 +21,7 @@ def get_filters():
     while True:
         city = input("Select a city: 'Chicago', 'New York City', 'Washington':\n")
         if city.lower() not in ('chicago', 'new york city', 'washington'):
-            print("Invalid city, please choose again")
+            print("There is no data for this city, please choose between Chicago, New York City or Washington")
         else:
             break
 
