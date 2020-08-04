@@ -38,7 +38,7 @@ def get_filters():
     while True:
         day = input("Enter a day between Monday and Sunday or type all: \n")
         if day.lower() not in ('monday','tuesday','wednesday','thursday','friday','saturday','sunday', 'all'):
-            print('Invalid day, please choose again')        
+            print('Incorrect day, please spell the day correctly in full')        
         else:
             break
 
