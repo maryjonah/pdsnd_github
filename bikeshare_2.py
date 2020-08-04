@@ -21,7 +21,7 @@ def get_filters():
     while True:
         city = input("Select a city: 'Chicago', 'New York City', 'Washington':\n")
         if city.lower() not in ('chicago', 'new york city', 'washington'):
-            print("Invalid city, please choose again")
+            print("There is no data for this city, please choose between Chicago, New York City or Washington")
         else:
             break
 
@@ -30,7 +30,7 @@ def get_filters():
         month = input("Type a month between January and June (write out in full) or all:\n")
 
         if month.lower() not in ('january','february','march','april','may','june', 'all'):
-            print('Invalid month, please choose again')
+            print('There is no data for this month, please any month between January and June')
         else:
             break
 
@@ -38,7 +38,7 @@ def get_filters():
     while True:
         day = input("Enter a day between Monday and Sunday or type all: \n")
         if day.lower() not in ('monday','tuesday','wednesday','thursday','friday','saturday','sunday', 'all'):
-            print('Invalid day, please choose again')        
+            print('Incorrect day, please spell the day correctly in full')        
         else:
             break
 
