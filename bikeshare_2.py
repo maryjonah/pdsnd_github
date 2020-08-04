@@ -30,7 +30,7 @@ def get_filters():
         month = input("Type a month between January and June (write out in full) or all:\n")
 
         if month.lower() not in ('january','february','march','april','may','june', 'all'):
-            print('Invalid month, please choose again')
+            print('There is no data for this month, please any month between January and June')
         else:
             break
 
